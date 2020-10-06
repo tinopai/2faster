@@ -1,0 +1,11 @@
+{
+    "name": "2FAster",
+    "http": {
+        "port": 3100
+    },
+    "twofa": {
+        "code": {
+            "length": 6
+        }
+    }
+}

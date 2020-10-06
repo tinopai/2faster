@@ -1,0 +1,32 @@
+{
+  "name": "2faster",
+  "version": "1.0.0",
+  "description": "Server (ExpressJS)",
+  "main": "app.js",
+  "author": "Tino Pai",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinopai/2faster.git"
+  },
+  "keywords": [
+    "2FA",
+    "login",
+    "mobile",
+    "authenticator",
+    "c++"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tinopai/2faster/issues"
+  },
+  "homepage": "https://github.com/tinopai/2faster#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "joi": "^17.2.1"
+  }
+}
