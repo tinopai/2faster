@@ -19,7 +19,7 @@ router.post("/login", async(req, res) => {
     });
 
     const code = new Code(validation.value.username, validation.value.password);
-    if(code.code == validation.value.twofactor.toUpperCase()) return res.status(200).json({
+    if(code.code != validation.value.twofactor.toUpperCase()) return res.status(200).json({
         success: false,
         message: "Invalid 2FA code"
     });
